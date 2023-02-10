@@ -8,7 +8,6 @@ export default createGlobalStyle`
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    transition: .2s ease-in-out;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -16,6 +15,15 @@ body{
     color: #333;
     /* Deixa a font mais bonita */
     -webkit-font-smoothing: antialiased !important;
-    height: 1000px;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    align-items: center; */
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
 }
 `;
