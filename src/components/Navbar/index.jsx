@@ -14,7 +14,10 @@ const Navbar = () => {
     return (
         <div className='container-navbar'>
             <nav>
-                <img src={Eu} alt="Eu" className='eu'/>
+                <div className='img-arrow'>
+                    <img src={Eu} alt="Eu" className='eu' />
+                    <span className='arrow'><i class="fa-solid fa-arrow-right"></i></span>
+                </div>
                 <div className='container-links'>
                     <Link to="/" className='links'>
                         <img src={Hacker} alt="About me" />
