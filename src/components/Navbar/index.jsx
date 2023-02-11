@@ -25,17 +25,17 @@ const Navbar = () => {
                         Skills
                     </Link>
                     <Link to="/projects" className='links'>
-                        <img src={Projects} alt="" />
+                        <img src={Projects} alt="Projects" />
                         Projects
                     </Link>
                     <Link to="/contact" className='links'>
-                        <img src={Contact} alt="" />
+                        <img src={Contact} alt="Contact" />
                         Contact
                     </Link>
                     <div className='social'>
-                        <a href="#"><i class="fa-brands fa-github"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://github.com/WesleyAlvess"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/wesley-alves-pereira-27496920a/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/wesleyalvp/"><i class="fa-brands fa-square-instagram"></i></a>
                     </div>
                 </div>
             </nav>

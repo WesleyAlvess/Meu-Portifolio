@@ -15,15 +15,9 @@ body{
     color: #333;
     /* Deixa a font mais bonita */
     -webkit-font-smoothing: antialiased !important;
-    
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    align-items: center; */
 
     width: 100vw;
     height: 100vh;
-    margin: 0;
 }
+
 `;

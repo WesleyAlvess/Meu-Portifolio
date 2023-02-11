@@ -1,13 +1,14 @@
 import React from 'react'
 
 import Navbar from '../../components/Navbar'
+import Skill from '../../components/Skills'
 
 const Skills = () => {
     return (
-        <>
+        <main>
             <Navbar />
-            <h1>Skills</h1>
-        </>
+            <Skill />
+        </main>
     )
 }
 

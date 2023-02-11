@@ -1,13 +1,15 @@
 import React from 'react'
+import "./style.css"
 
 import Navbar from '../../components/Navbar'
+import Project from '../../components/Projects'
 
 const Projects = () => {
     return (
-        <>
+        <main>
             <Navbar />
-            <h1>Projects</h1>
-        </>
+            <Project/>
+        </main>
     )
 }
 
